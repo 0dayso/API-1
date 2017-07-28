@@ -1,0 +1,33 @@
+2017-07-24 15:08:10,980 [9] ERROR API.Log.WriteLog - Cannot access child value on Newtonsoft.Json.Linq.JValue.
+ API.Log.WriteLognameSystem.InvalidOperationException: Cannot access child value on Newtonsoft.Json.Linq.JValue.
+   在 Newtonsoft.Json.Linq.JToken.get_Item(Object key)
+   在 Amazon.OrderListHandler.GetMainInfoDicList(String html, Action`1 insetTable, Boolean isFirstPage) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 107
+   在 Amazon.ProcessHandler.Process(Action`1 writeLog, Action adsl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\ProcessHandler.cs:行号 101
+2017-07-24 19:33:56,186 [9] ERROR API.Log.WriteLog - 远程服务器返回错误: (500) 内部服务器错误。
+ API.Log.WriteLognameSystem.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 API.Helper.HttpHelper.GetHtmlByPost(String url, String postDataString) 位置 D:\Documents\Visual Studio 2015\Projects\API\API\Helper\HttpHelper.cs:行号 152
+   在 Amazon.OrderListHandler.GetHtmlByPostTryThreeTimes(String url, String postData) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 95
+   在 Amazon.OrderListHandler.GetOrderListHtml(IDictionary`2 dic) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 71
+   在 Amazon.ProcessHandler.Process(Action`1 writeLog, Action adsl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\ProcessHandler.cs:行号 84
+2017-07-24 19:34:18,499 [9] ERROR API.Log.WriteLog - 远程服务器返回错误: (500) 内部服务器错误。
+ API.Log.WriteLognameSystem.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 API.Helper.HttpHelper.GetHtmlByPost(String url, String postDataString) 位置 D:\Documents\Visual Studio 2015\Projects\API\API\Helper\HttpHelper.cs:行号 152
+   在 Amazon.OrderListHandler.GetHtmlByPostTryThreeTimes(String url, String postData) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 95
+   在 Amazon.OrderListHandler.GetOrderListHtml(IDictionary`2 dic) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 71
+   在 Amazon.ProcessHandler.Process(Action`1 writeLog, Action adsl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\ProcessHandler.cs:行号 84
+2017-07-24 21:43:43,110 [10] ERROR API.Log.WriteLog - 远程服务器返回错误: (400) 错误的请求。
+ API.Log.WriteLognameSystem.Net.WebException: 远程服务器返回错误: (400) 错误的请求。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 API.Helper.HttpHelper.GetHtmlByPost(String url, String postDataString) 位置 D:\Documents\Visual Studio 2015\Projects\API\API\Helper\HttpHelper.cs:行号 152
+   在 Amazon.OrderListHandler.GetHtmlByPostTryThreeTimes(String url, String postData) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 98
+   在 Amazon.OrderListHandler.GetOrderListHtml(IDictionary`2 dic) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 72
+   在 Amazon.ProcessHandler.Process(Action`1 writeLog, Action adsl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\ProcessHandler.cs:行号 84
+2017-07-24 22:18:32,926 [10] ERROR API.Log.WriteLog - 远程服务器返回错误: (400) 错误的请求。
+ API.Log.WriteLognameSystem.Net.WebException: 远程服务器返回错误: (400) 错误的请求。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 API.Helper.HttpHelper.GetHtmlByPost(String url, String postDataString) 位置 D:\Documents\Visual Studio 2015\Projects\API\API\Helper\HttpHelper.cs:行号 152
+   在 Amazon.OrderListHandler.GetHtmlByPostTryThreeTimes(String url, String postData) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 98
+   在 Amazon.OrderListHandler.GetOrderListHtml(IDictionary`2 dic) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 72
+   在 Amazon.ProcessHandler.Process(Action`1 writeLog, Action adsl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\ProcessHandler.cs:行号 84

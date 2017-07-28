@@ -1,0 +1,13 @@
+2017-07-18 17:21:49,590 [11] ERROR API.Log.WriteLog - 远程服务器返回错误: (401) 未经授权。
+ API.Log.WriteLognameSystem.Net.WebException: 远程服务器返回错误: (401) 未经授权。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 API.Helper.HttpHelper.GetHtmlByPost(String url, String postDataString) 位置 D:\Documents\Visual Studio 2015\Projects\API\API\Helper\HttpHelper.cs:行号 152
+   在 Amazon.OrderListHandler.GetOrderListHtml(IDictionary`2 dic) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 72
+   在 Amazon.ProcessHandler.Process(Action`1 writeLog, Action adsl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\ProcessHandler.cs:行号 81
+2017-07-18 17:32:01,494 [10] ERROR API.Log.WriteLog - 操作超时
+ API.Log.WriteLognameSystem.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 API.Helper.HttpHelper.GetHtmlByPost(String url, String postDataString) 位置 D:\Documents\Visual Studio 2015\Projects\API\API\Helper\HttpHelper.cs:行号 147
+   在 Amazon.OrderListHandler.GetOrderListHtml(IDictionary`2 dic) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 72
+   在 Amazon.ProcessHandler.Process(Action`1 writeLog, Action adsl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\ProcessHandler.cs:行号 81

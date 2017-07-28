@@ -1,0 +1,28 @@
+D:\Documents\Visual Studio 2015\Projects\API\API\bin\Release\API.pdb
+D:\Documents\Visual Studio 2015\Projects\API\API\obj\Release\API.pdb
+D:\Documents\Visual Studio 2015\Projects\API\API\bin\Release\log4net.config
+D:\Documents\Visual Studio 2015\Projects\API\API\bin\Release\API.dll.config
+D:\Documents\Visual Studio 2015\Projects\API\API\bin\Release\API.dll
+D:\Documents\Visual Studio 2015\Projects\API\API\bin\Release\log4net.dll
+D:\Documents\Visual Studio 2015\Projects\API\API\bin\Release\MySql.Data.dll
+D:\Documents\Visual Studio 2015\Projects\API\API\bin\Release\log4net.xml
+D:\Documents\Visual Studio 2015\Projects\API\API\obj\Release\API.dll
+D:\Documents\Visual Studio 2015\Projects\API\API\bin\Release\Newtonsoft.Json.dll
+D:\Documents\Visual Studio 2015\Projects\API\API\bin\Release\Newtonsoft.Json.xml
+D:\Documents\Visual Studio 2015\Projects\API\API\bin\Release\DotRas.dll
+D:\Documents\Visual Studio 2015\Projects\API\API\bin\Release\DotRas.xml
+D:\Documents\Visual Studio 2015\Projects\API\API\obj\Release\API.csprojResolveAssemblyReference.cache
+F:\myGitHub\API\API\bin\Release\log4net.config
+F:\myGitHub\API\API\bin\Release\API.dll.config
+F:\myGitHub\API\API\bin\Release\API.dll
+F:\myGitHub\API\API\bin\Release\API.pdb
+F:\myGitHub\API\API\bin\Release\DotRas.dll
+F:\myGitHub\API\API\bin\Release\log4net.dll
+F:\myGitHub\API\API\bin\Release\MySql.Data.dll
+F:\myGitHub\API\API\bin\Release\Newtonsoft.Json.dll
+F:\myGitHub\API\API\bin\Release\DotRas.xml
+F:\myGitHub\API\API\bin\Release\log4net.xml
+F:\myGitHub\API\API\bin\Release\Newtonsoft.Json.xml
+F:\myGitHub\API\API\obj\Release\API.csprojResolveAssemblyReference.cache
+F:\myGitHub\API\API\obj\Release\API.dll
+F:\myGitHub\API\API\obj\Release\API.pdb

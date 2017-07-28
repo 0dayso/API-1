@@ -1,0 +1,16 @@
+d:\documents\visual studio 2015\Projects\API\AliExpress\obj\Debug\AliExpress.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\API\AliExpress\bin\Debug\AliExpress.exe.config
+d:\documents\visual studio 2015\Projects\API\AliExpress\bin\Debug\AliExpress.exe
+d:\documents\visual studio 2015\Projects\API\AliExpress\bin\Debug\AliExpress.pdb
+d:\documents\visual studio 2015\Projects\API\AliExpress\obj\Debug\AliExpress.exe
+d:\documents\visual studio 2015\Projects\API\AliExpress\obj\Debug\AliExpress.pdb
+D:\Documents\Visual Studio 2015\Projects\API\AliExpress\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\Visual Studio 2015\Projects\API\AliExpress\bin\Debug\MySql.Data.dll
+D:\Documents\Visual Studio 2015\Projects\API\AliExpress\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\Visual Studio 2015\Projects\API\AliExpress\bin\Debug\API.dll
+D:\Documents\Visual Studio 2015\Projects\API\AliExpress\bin\Debug\API.pdb
+D:\Documents\Visual Studio 2015\Projects\API\AliExpress\bin\Debug\log4net.dll
+D:\Documents\Visual Studio 2015\Projects\API\AliExpress\bin\Debug\log4net.xml
+D:\Documents\Visual Studio 2015\Projects\API\AliExpress\bin\Debug\log4net.config
+D:\Documents\Visual Studio 2015\Projects\API\AliExpress\bin\Debug\DotRas.dll
+D:\Documents\Visual Studio 2015\Projects\API\AliExpress\bin\Debug\DotRas.xml

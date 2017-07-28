@@ -1,0 +1,47 @@
+2017-07-19 09:41:12,897 [9] ERROR API.Log.WriteLog - 远程服务器返回错误: (503) 服务器不可用。
+ API.Log.WriteLognameSystem.Net.WebException: 远程服务器返回错误: (503) 服务器不可用。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 API.Helper.HttpHelper.GetHtmlByPost(String url, String postDataString) 位置 D:\Documents\Visual Studio 2015\Projects\API\API\Helper\HttpHelper.cs:行号 152
+   在 Amazon.OrderListHandler.GetOrderListHtml(IDictionary`2 dic) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 72
+   在 Amazon.ProcessHandler.Process(Action`1 writeLog, Action adsl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\ProcessHandler.cs:行号 81
+2017-07-19 11:33:18,034 [9] ERROR API.Log.WriteLog - Cannot access child value on Newtonsoft.Json.Linq.JValue.
+ API.Log.WriteLognameSystem.InvalidOperationException: Cannot access child value on Newtonsoft.Json.Linq.JValue.
+   在 Newtonsoft.Json.Linq.JToken.get_Item(Object key)
+   在 Amazon.OrderListHandler.GetMainInfoDicList(String html, Action`1 insetTable, Boolean isFirstPage) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 82
+   在 Amazon.ProcessHandler.Process(Action`1 writeLog, Action adsl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\ProcessHandler.cs:行号 92
+2017-07-19 11:44:48,816 [10] ERROR API.Log.WriteLog - 远程服务器返回错误: (503) 服务器不可用。
+ API.Log.WriteLognameSystem.Net.WebException: 远程服务器返回错误: (503) 服务器不可用。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 API.Helper.HttpHelper.GetHtmlByPost(String url, String postDataString) 位置 D:\Documents\Visual Studio 2015\Projects\API\API\Helper\HttpHelper.cs:行号 152
+   在 Amazon.OrderListHandler.GetOrderListHtml(IDictionary`2 dic) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 72
+   在 Amazon.ProcessHandler.Process(Action`1 writeLog, Action adsl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\ProcessHandler.cs:行号 81
+2017-07-19 14:05:15,043 [9] ERROR API.Log.WriteLog - 远程服务器返回错误: (503) 服务器不可用。
+ API.Log.WriteLognameSystem.Net.WebException: 远程服务器返回错误: (503) 服务器不可用。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 API.Helper.HttpHelper.GetHtmlByPost(String url, String postDataString) 位置 D:\Documents\Visual Studio 2015\Projects\API\API\Helper\HttpHelper.cs:行号 152
+   在 Amazon.OrderListHandler.GetOrderListHtml(IDictionary`2 dic) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 72
+   在 Amazon.ProcessHandler.Process(Action`1 writeLog, Action adsl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\ProcessHandler.cs:行号 81
+2017-07-19 14:07:09,882 [8] ERROR API.Log.WriteLog - Cannot access child value on Newtonsoft.Json.Linq.JValue.
+ API.Log.WriteLognameSystem.InvalidOperationException: Cannot access child value on Newtonsoft.Json.Linq.JValue.
+   在 Newtonsoft.Json.Linq.JToken.get_Item(Object key)
+   在 Amazon.OrderListHandler.GetMainInfoDicList(String html, Action`1 insetTable, Boolean isFirstPage) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 82
+   在 Amazon.ProcessHandler.Process(Action`1 writeLog, Action adsl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\ProcessHandler.cs:行号 92
+2017-07-19 14:16:24,541 [9] ERROR API.Log.WriteLog - 远程服务器返回错误: (503) 服务器不可用。
+ API.Log.WriteLognameSystem.Net.WebException: 远程服务器返回错误: (503) 服务器不可用。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 API.Helper.HttpHelper.GetHtmlByPost(String url, String postDataString) 位置 D:\Documents\Visual Studio 2015\Projects\API\API\Helper\HttpHelper.cs:行号 152
+   在 Amazon.OrderListHandler.GetOrderListHtml(IDictionary`2 dic) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 72
+   在 Amazon.ProcessHandler.Process(Action`1 writeLog, Action adsl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\ProcessHandler.cs:行号 81
+2017-07-19 14:29:16,047 [10] ERROR API.Log.WriteLog - Cannot access child value on Newtonsoft.Json.Linq.JValue.
+ API.Log.WriteLognameSystem.InvalidOperationException: Cannot access child value on Newtonsoft.Json.Linq.JValue.
+   在 Newtonsoft.Json.Linq.JToken.get_Item(Object key)
+   在 Amazon.OrderListHandler.GetMainInfoDicList(String html, Action`1 insetTable, Boolean isFirstPage) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 104
+   在 Amazon.ProcessHandler.Process(Action`1 writeLog, Action adsl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\ProcessHandler.cs:行号 92
+2017-07-19 17:20:04,775 [10] ERROR API.Log.WriteLog - 操作超时
+ API.Log.WriteLognameSystem.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 API.Helper.HttpHelper.GetHtmlByPost(String url, String postDataString) 位置 D:\Documents\Visual Studio 2015\Projects\API\API\Helper\HttpHelper.cs:行号 147
+   在 Amazon.OrderListHandler.GetHtmlByPostTryThreeTimes(String url, String postData) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 95
+   在 Amazon.OrderListHandler.GetOrderListHtml(IDictionary`2 dic) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 71
+   在 Amazon.ProcessHandler.Process(Action`1 writeLog, Action adsl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\ProcessHandler.cs:行号 81

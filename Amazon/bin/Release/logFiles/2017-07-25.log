@@ -1,0 +1,14 @@
+2017-07-25 13:56:15,361 [10] ERROR API.Log.WriteLog - 远程服务器返回错误: (400) 错误的请求。
+ API.Log.WriteLognameSystem.Net.WebException: 远程服务器返回错误: (400) 错误的请求。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 API.Helper.HttpHelper.GetHtmlByPost(String url, String postDataString) 位置 D:\Documents\Visual Studio 2015\Projects\API\API\Helper\HttpHelper.cs:行号 152
+   在 Amazon.OrderListHandler.GetHtmlByPostTryThreeTimes(String url, String postData) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 98
+   在 Amazon.OrderListHandler.GetOrderListHtml(IDictionary`2 dic) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 72
+   在 Amazon.ProcessHandler.Process(Action`1 writeLog, Action adsl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\ProcessHandler.cs:行号 84
+2017-07-25 21:30:12,932 [9] ERROR API.Log.WriteLog - 操作超时
+ API.Log.WriteLognameSystem.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 API.Helper.HttpHelper.GetHtmlByPost(String url, String postDataString) 位置 D:\Documents\Visual Studio 2015\Projects\API\API\Helper\HttpHelper.cs:行号 152
+   在 Amazon.OrderListHandler.GetOrderListHtml(IDictionary`2 dic) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 73
+   在 Amazon.ProcessHandler.GetHtmlByPostTryThreeTimes(Boolean isFirstPage, String createAfter, String nextToken, OrderListHandler orderListHandler) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\ProcessHandler.cs:行号 167
+   在 Amazon.ProcessHandler.Process(Action`1 writeLog, Action adsl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\ProcessHandler.cs:行号 95

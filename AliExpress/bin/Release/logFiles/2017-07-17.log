@@ -1,0 +1,40 @@
+2017-07-17 11:27:50,731 [9] ERROR API.Log.WriteLog - 未将对象引用设置到对象的实例。
+ API.Log.WriteLognameSystem.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AliExpress.MainClass.<Process>b__1_0(Exception exception) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\MainClass.cs:行号 28
+   在 AliExpress.ProcessHandler.Process(Action`1 action) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\ProcessHandler.cs:行号 107
+2017-07-17 11:29:10,736 [10] ERROR API.Log.WriteLog - 未将对象引用设置到对象的实例。
+ API.Log.WriteLognameSystem.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AliExpress.MainClass.<Process>b__1_0(Exception exception) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\MainClass.cs:行号 28
+   在 AliExpress.ProcessHandler.Process(Action`1 action) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\ProcessHandler.cs:行号 107
+2017-07-17 11:29:41,635 [8] ERROR API.Log.WriteLog - 未将对象引用设置到对象的实例。
+ API.Log.WriteLognameSystem.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AliExpress.MainClass.<Process>b__1_0(Exception exception) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\MainClass.cs:行号 28
+   在 AliExpress.ProcessHandler.Process(Action`1 action) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\ProcessHandler.cs:行号 107
+2017-07-17 11:30:56,436 [9] ERROR API.Log.WriteLog - 未将对象引用设置到对象的实例。
+ API.Log.WriteLognameSystem.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AliExpress.MainClass.<Process>b__1_0(Exception exception) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\MainClass.cs:行号 28
+   在 AliExpress.ProcessHandler.Process(Action`1 action) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\ProcessHandler.cs:行号 107
+2017-07-17 15:30:47,865 [10] ERROR API.Log.WriteLog - 远程服务器返回错误: (401) 未经授权。
+ API.Log.WriteLognameSystem.Net.WebException: 远程服务器返回错误: (401) 未经授权。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 API.HttpHelper.GetHtmlByPost(String url, String postDataString) 位置 D:\Documents\Visual Studio 2015\Projects\API\API\HttpHelper.cs:行号 154
+   在 AliExpress.OrderListHandler.GetAccessToken(String appKey, String appSecret, String refreshToken) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\OrderListHandler.cs:行号 282
+   在 AliExpress.ProcessHandler.Process(Action`1 action, String taskTableName) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\ProcessHandler.cs:行号 105
+2017-07-17 15:32:12,399 [9] ERROR API.Log.WriteLog - 远程服务器返回错误: (401) 未经授权。
+ API.Log.WriteLognameSystem.Net.WebException: 远程服务器返回错误: (401) 未经授权。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 API.HttpHelper.GetHtmlByPost(String url, String postDataString) 位置 D:\Documents\Visual Studio 2015\Projects\API\API\HttpHelper.cs:行号 154
+   在 AliExpress.OrderListHandler.GetAccessToken(String appKey, String appSecret, String refreshToken) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\OrderListHandler.cs:行号 282
+   在 AliExpress.ProcessHandler.Process(Action`1 action, String taskTableName) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\ProcessHandler.cs:行号 105
+2017-07-17 15:34:24,190 [11] ERROR API.Log.WriteLog - 远程服务器返回错误: (401) 未经授权。
+ API.Log.WriteLognameSystem.Net.WebException: 远程服务器返回错误: (401) 未经授权。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 API.HttpHelper.GetHtmlByPost(String url, String postDataString) 位置 D:\Documents\Visual Studio 2015\Projects\API\API\HttpHelper.cs:行号 154
+   在 AliExpress.OrderListHandler.GetAccessToken(String appKey, String appSecret, String refreshToken) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\OrderListHandler.cs:行号 282
+   在 AliExpress.ProcessHandler.Process(Action`1 action, String taskTableName) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\ProcessHandler.cs:行号 105
+2017-07-17 15:35:36,688 [9] ERROR API.Log.WriteLog - 远程服务器返回错误: (401) 未经授权。
+ API.Log.WriteLognameSystem.Net.WebException: 远程服务器返回错误: (401) 未经授权。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 API.HttpHelper.GetHtmlByPost(String url, String postDataString) 位置 D:\Documents\Visual Studio 2015\Projects\API\API\HttpHelper.cs:行号 154
+   在 AliExpress.OrderListHandler.GetAccessToken(String appKey, String appSecret, String refreshToken) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\OrderListHandler.cs:行号 282
+   在 AliExpress.ProcessHandler.Process(Action`1 action, String taskTableName) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\ProcessHandler.cs:行号 105

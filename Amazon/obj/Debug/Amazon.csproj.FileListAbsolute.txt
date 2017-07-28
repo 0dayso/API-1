@@ -1,0 +1,16 @@
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Debug\Amazon.exe
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Debug\Amazon.pdb
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\obj\Debug\Amazon.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\obj\Debug\Amazon.exe
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\obj\Debug\Amazon.pdb
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Debug\Amazon.exe.config
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Debug\MySql.Data.dll
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Debug\API.dll
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Debug\API.pdb
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Debug\log4net.dll
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Debug\log4net.xml
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Debug\log4net.config
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Debug\DotRas.dll
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Debug\DotRas.xml

@@ -1,0 +1,32 @@
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\obj\Release\Amazon.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Release\Amazon.exe.config
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Release\Amazon.exe
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Release\Amazon.pdb
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\obj\Release\Amazon.exe
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\obj\Release\Amazon.pdb
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Release\MySql.Data.dll
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Release\log4net.config
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Release\API.dll
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Release\log4net.dll
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Release\API.pdb
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Release\log4net.xml
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Release\Newtonsoft.Json.dll
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Release\Newtonsoft.Json.xml
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Release\DotRas.dll
+D:\Documents\Visual Studio 2015\Projects\API\Amazon\bin\Release\DotRas.xml
+F:\myGitHub\API\Amazon\bin\Release\Amazon.exe.config
+F:\myGitHub\API\Amazon\obj\Release\Amazon.exe
+F:\myGitHub\API\Amazon\obj\Release\Amazon.pdb
+F:\myGitHub\API\Amazon\bin\Release\log4net.config
+F:\myGitHub\API\Amazon\bin\Release\Amazon.exe
+F:\myGitHub\API\Amazon\bin\Release\Amazon.pdb
+F:\myGitHub\API\Amazon\bin\Release\API.dll
+F:\myGitHub\API\Amazon\bin\Release\Newtonsoft.Json.dll
+F:\myGitHub\API\Amazon\bin\Release\log4net.dll
+F:\myGitHub\API\Amazon\bin\Release\MySql.Data.dll
+F:\myGitHub\API\Amazon\bin\Release\DotRas.dll
+F:\myGitHub\API\Amazon\bin\Release\API.pdb
+F:\myGitHub\API\Amazon\bin\Release\Newtonsoft.Json.xml
+F:\myGitHub\API\Amazon\bin\Release\log4net.xml
+F:\myGitHub\API\Amazon\bin\Release\DotRas.xml
+F:\myGitHub\API\Amazon\obj\Release\Amazon.csprojResolveAssemblyReference.cache

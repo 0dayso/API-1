@@ -1,0 +1,31 @@
+2017-07-21 16:54:34,187 [9] ERROR API.Log.WriteLog - 远程服务器返回错误: (401) 未经授权。
+ API.Log.WriteLognameSystem.Net.WebException: 远程服务器返回错误: (401) 未经授权。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 API.Helper.HttpHelper.GetHtmlByPost(String url, String postDataString) 位置 D:\Documents\Visual Studio 2015\Projects\API\API\Helper\HttpHelper.cs:行号 152
+   在 Amazon.OrderListHandler.GetHtmlByPostTryThreeTimes(String url, String postData) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 95
+   在 Amazon.OrderListHandler.GetOrderListHtml(IDictionary`2 dic) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 71
+   在 Amazon.ProcessHandler.Process(Action`1 writeLog, Action adsl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\ProcessHandler.cs:行号 84
+2017-07-21 16:55:48,773 [9] ERROR API.Log.WriteLog - 未将对象引用设置到对象的实例。
+ API.Log.WriteLognameSystem.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Amazon.SignatureHandler.CaculateStringToSignV2(IDictionary`2 dic, String serviceUrl, String partUrl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\SignatureHandler.cs:行号 32
+   在 Amazon.SignatureHandler.GetPostDataByDic(IDictionary`2 dic, String secretKey, String serviceUrl, String partUrl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\SignatureHandler.cs:行号 118
+   在 Amazon.OrderListHandler.GetOrderListHtml(IDictionary`2 dic) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 69
+   在 Amazon.ProcessHandler.Process(Action`1 writeLog, Action adsl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\ProcessHandler.cs:行号 84
+2017-07-21 16:56:05,445 [9] ERROR API.Log.WriteLog - 未将对象引用设置到对象的实例。
+ API.Log.WriteLognameSystem.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Amazon.SignatureHandler.CaculateStringToSignV2(IDictionary`2 dic, String serviceUrl, String partUrl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\SignatureHandler.cs:行号 32
+   在 Amazon.SignatureHandler.GetPostDataByDic(IDictionary`2 dic, String secretKey, String serviceUrl, String partUrl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\SignatureHandler.cs:行号 118
+   在 Amazon.OrderListHandler.GetOrderListHtml(IDictionary`2 dic) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 69
+   在 Amazon.ProcessHandler.Process(Action`1 writeLog, Action adsl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\ProcessHandler.cs:行号 84
+2017-07-21 16:56:58,160 [10] ERROR API.Log.WriteLog - 未将对象引用设置到对象的实例。
+ API.Log.WriteLognameSystem.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Amazon.SignatureHandler.CaculateStringToSignV2(IDictionary`2 dic, String serviceUrl, String partUrl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\SignatureHandler.cs:行号 32
+   在 Amazon.SignatureHandler.GetPostDataByDic(IDictionary`2 dic, String secretKey, String serviceUrl, String partUrl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\SignatureHandler.cs:行号 118
+   在 Amazon.OrderListHandler.GetOrderListHtml(IDictionary`2 dic) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 69
+   在 Amazon.ProcessHandler.Process(Action`1 writeLog, Action adsl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\ProcessHandler.cs:行号 83
+2017-07-21 16:58:43,094 [8] ERROR API.Log.WriteLog - 未将对象引用设置到对象的实例。
+ API.Log.WriteLognameSystem.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Amazon.SignatureHandler.CaculateStringToSignV2(IDictionary`2 dic, String serviceUrl, String partUrl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\SignatureHandler.cs:行号 32
+   在 Amazon.SignatureHandler.GetPostDataByDic(IDictionary`2 dic, String secretKey, String serviceUrl, String partUrl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\SignatureHandler.cs:行号 118
+   在 Amazon.OrderListHandler.GetOrderListHtml(IDictionary`2 dic) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\OrderListHandler.cs:行号 69
+   在 Amazon.ProcessHandler.Process(Action`1 writeLog, Action adsl) 位置 D:\Documents\Visual Studio 2015\Projects\API\Amazon\ProcessHandler.cs:行号 84

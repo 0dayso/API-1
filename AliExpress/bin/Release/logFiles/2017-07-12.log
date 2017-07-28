@@ -1,0 +1,47 @@
+2017-07-12 13:33:39,825 [10] ERROR API.Log.WriteLog - 远程服务器返回错误: (405) 不允许的方法。
+ API.Log.WriteLognameSystem.Net.WebException: 远程服务器返回错误: (405) 不允许的方法。
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 API.HttpHelper.GetHtmlByPost(String url, String postDataString) 位置 D:\Documents\Visual Studio 2015\Projects\API\API\HttpHelper.cs:行号 149
+   在 AliExpress.OrderListHandler.GetAccessToken(String appKey, String appSecret, String refreshToken) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\OrderListHandler.cs:行号 309
+   在 AliExpress.OrderListHandler.GetFindOrderListQueryUrlIList(String appKey, String appSecret, String refreshToken, String createDateStart, String createDateEnd) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\OrderListHandler.cs:行号 429
+   在 AliExpress.ProcessHandler.Process3(String appKey, String appSecret, String refreshToken, String createDateStart, String createDateEnd, DbHandler dbHandler, IDictionary`2 dic, String tableName) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\ProcessHandler.cs:行号 138
+   在 AliExpress.ProcessHandler.Process2(IDictionary`2 dic, DbHandler dbHandler) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\ProcessHandler.cs:行号 112
+   在 AliExpress.ProcessHandler.Process() 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\ProcessHandler.cs:行号 49
+   在 AliExpress.MainClass.Process() 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\MainClass.cs:行号 27
+2017-07-12 13:34:47,825 [9] ERROR API.Log.WriteLog - 远程服务器返回错误: (502) 错误的网关。
+ API.Log.WriteLognameSystem.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 API.HttpHelper.GetHtmlByPost(String url, String postDataString) 位置 D:\Documents\Visual Studio 2015\Projects\API\API\HttpHelper.cs:行号 149
+   在 AliExpress.OrderListHandler.GetAccessToken(String appKey, String appSecret, String refreshToken) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\OrderListHandler.cs:行号 309
+   在 AliExpress.OrderListHandler.GetFindOrderListQueryUrlIList(String appKey, String appSecret, String refreshToken, String createDateStart, String createDateEnd) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\OrderListHandler.cs:行号 429
+   在 AliExpress.ProcessHandler.Process3(String appKey, String appSecret, String refreshToken, String createDateStart, String createDateEnd, DbHandler dbHandler, IDictionary`2 dic, String tableName) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\ProcessHandler.cs:行号 138
+   在 AliExpress.ProcessHandler.Process2(IDictionary`2 dic, DbHandler dbHandler) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\ProcessHandler.cs:行号 112
+   在 AliExpress.ProcessHandler.Process() 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\ProcessHandler.cs:行号 49
+   在 AliExpress.MainClass.Process() 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\MainClass.cs:行号 27
+2017-07-12 13:35:27,082 [9] ERROR API.Log.WriteLog - 远程服务器返回错误: (502) 错误的网关。
+ API.Log.WriteLognameSystem.Net.WebException: 远程服务器返回错误: (502) 错误的网关。
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 API.HttpHelper.GetHtmlByPost(String url, String postDataString) 位置 D:\Documents\Visual Studio 2015\Projects\API\API\HttpHelper.cs:行号 149
+   在 AliExpress.OrderListHandler.GetAccessToken(String appKey, String appSecret, String refreshToken) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\OrderListHandler.cs:行号 309
+   在 AliExpress.OrderListHandler.GetFindOrderListQueryUrlIList(String appKey, String appSecret, String refreshToken, String createDateStart, String createDateEnd) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\OrderListHandler.cs:行号 429
+   在 AliExpress.ProcessHandler.Process3(String appKey, String appSecret, String refreshToken, String createDateStart, String createDateEnd, DbHandler dbHandler, IDictionary`2 dic, String tableName) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\ProcessHandler.cs:行号 138
+   在 AliExpress.ProcessHandler.Process2(IDictionary`2 dic, DbHandler dbHandler) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\ProcessHandler.cs:行号 112
+   在 AliExpress.ProcessHandler.Process() 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\ProcessHandler.cs:行号 49
+   在 AliExpress.MainClass.Process() 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\MainClass.cs:行号 27
+2017-07-12 13:41:22,833 [10] ERROR API.Log.WriteLog - 无法连接到远程服务器
+ API.Log.WriteLognameSystem.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:64762
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 API.HttpHelper.GetHtmlByPost(String url, String postDataString) 位置 D:\Documents\Visual Studio 2015\Projects\API\API\HttpHelper.cs:行号 149
+   在 AliExpress.OrderListHandler.GetAccessToken(String appKey, String appSecret, String refreshToken) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\OrderListHandler.cs:行号 309
+   在 AliExpress.OrderListHandler.GetFindOrderListQueryUrlIList(String appKey, String appSecret, String refreshToken, String createDateStart, String createDateEnd) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\OrderListHandler.cs:行号 429
+   在 AliExpress.ProcessHandler.Process3(String appKey, String appSecret, String refreshToken, String createDateStart, String createDateEnd, DbHandler dbHandler, IDictionary`2 dic, String tableName) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\ProcessHandler.cs:行号 138
+   在 AliExpress.ProcessHandler.Process2(IDictionary`2 dic, DbHandler dbHandler) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\ProcessHandler.cs:行号 112
+   在 AliExpress.ProcessHandler.Process() 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\ProcessHandler.cs:行号 49
+   在 AliExpress.MainClass.Process() 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\MainClass.cs:行号 27

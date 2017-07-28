@@ -1,0 +1,14 @@
+d:\documents\visual studio 2015\Projects\API\API\bin\Debug\API.pdb
+d:\documents\visual studio 2015\Projects\API\API\obj\Debug\API.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\API\API\obj\Debug\API.pdb
+D:\Documents\Visual Studio 2015\Projects\API\API\bin\Debug\API.dll
+D:\Documents\Visual Studio 2015\Projects\API\API\bin\Debug\MySql.Data.dll
+D:\Documents\Visual Studio 2015\Projects\API\API\obj\Debug\API.dll
+D:\Documents\Visual Studio 2015\Projects\API\API\bin\Debug\API.dll.config
+D:\Documents\Visual Studio 2015\Projects\API\API\bin\Debug\log4net.dll
+D:\Documents\Visual Studio 2015\Projects\API\API\bin\Debug\log4net.xml
+D:\Documents\Visual Studio 2015\Projects\API\API\bin\Debug\log4net.config
+D:\Documents\Visual Studio 2015\Projects\API\API\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\Visual Studio 2015\Projects\API\API\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\Visual Studio 2015\Projects\API\API\bin\Debug\DotRas.dll
+D:\Documents\Visual Studio 2015\Projects\API\API\bin\Debug\DotRas.xml

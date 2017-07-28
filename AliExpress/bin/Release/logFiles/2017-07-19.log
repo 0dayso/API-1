@@ -1,0 +1,6 @@
+2017-07-19 17:06:46,990 [9] ERROR API.Log.WriteLog - 远程服务器返回错误: (401) 未经授权。
+ API.Log.WriteLognameSystem.Net.WebException: 远程服务器返回错误: (401) 未经授权。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 API.Helper.HttpHelper.GetHtmlByPost(String url, String postDataString) 位置 D:\Documents\Visual Studio 2015\Projects\API\API\Helper\HttpHelper.cs:行号 152
+   在 AliExpress.OrderListHandler.GetAccessToken(String appKey, String appSecret, String refreshToken) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\OrderListHandler.cs:行号 284
+   在 AliExpress.ProcessHandler.Process(Action`1 writeLog, Action adsl, String taskTableName) 位置 D:\Documents\Visual Studio 2015\Projects\API\AliExpress\ProcessHandler.cs:行号 109
